@@ -1,0 +1,43 @@
+﻿生成启动时间为 2015/10/29 22:19:24。
+     1>项目“F:\workspace_C++\对齐测试用\New3DSLoader.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D GLUT_BUILDING_LIB /D _VC80_UPGRADE=0x0700 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D "_CRT_SECURE_NO_DEPRECATE" 3DSModel.cpp
+         3DSModel.cpp
+     1>f:\workspace_c++\对齐测试用\mass-springmodel.h(152): warning C4101: “cos2”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\mass-springmodel.h(152): warning C4101: “tan1”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\mass-springmodel.h(152): warning C4101: “sin3”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\mass-springmodel.h(152): warning C4101: “cos1”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\mass-springmodel.h(152): warning C4101: “min”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\mass-springmodel.h(152): warning C4101: “tan2”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\mass-springmodel.h(152): warning C4101: “area1”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\mass-springmodel.h(152): warning C4101: “sin2”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\mass-springmodel.h(152): warning C4101: “sin1”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\mass-springmodel.h(152): warning C4101: “area2”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\mass-springmodel.h(152): warning C4101: “cos3”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\mass-springmodel.h(152): warning C4101: “area3”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\mass-springmodel.h(152): warning C4101: “max”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\3dsmodel.cpp(875): warning C4101: “particle”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\3dsmodel.cpp(1070): warning C4101: “EndTime”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\3dsmodel.cpp(1069): warning C4101: “BegainTime”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\3dsmodel.cpp(1067): warning C4101: “time”: 未引用的局部变量
+     1>f:\workspace_c++\对齐测试用\3dsmodel.cpp(1071): warning C4101: “Frequency”: 未引用的局部变量
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/New3DSLoader.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib glut32.lib Opengl32.lib Glu32.lib glaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug/New3DSLoader.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\New3DSLoader.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO .\Debug\New3DSLoader.res
+         .\Debug/3dmath.obj
+         .\Debug/3DSModel.obj
+         .\Debug/human.obj
+         .\Debug/Load3DS.obj
+         ".\Debug/Mass-SpringModel.obj"
+         .\Debug/New3DSLoader.obj
+         .\Debug/Octree.obj
+         .\Debug/SelfCollision.obj
+         .\Debug/GLee.obj
+         .\Debug/gltools.obj
+         .\Debug/math3d.obj
+         .\Debug/StdAfx.obj
+         New3DSLoader.vcxproj -> F:\workspace_C++\对齐测试用\.\Debug\New3DSLoader.exe
+     1>已完成生成项目“F:\workspace_C++\对齐测试用\New3DSLoader.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.74

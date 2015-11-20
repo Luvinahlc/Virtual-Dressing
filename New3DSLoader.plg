@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: New3DSLoader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP103.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/New3DSLoader.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\我的开发文档\C++\管线系统\示例\openGL导入3ds卡车&仓库\New3DSLoader\3DSModel.cpp"
+"E:\我的开发文档\C++\管线系统\示例\openGL导入3ds卡车&仓库\New3DSLoader\Load3DS.cpp"
+"E:\我的开发文档\C++\管线系统\示例\openGL导入3ds卡车&仓库\New3DSLoader\New3DSLoader.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP103.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP104.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/New3DSLoader.pdb" /debug /machine:I386 /out:"Debug/New3DSLoader.exe" /pdbtype:sept 
+".\Debug\3dmath.obj"
+".\Debug\3DSModel.obj"
+".\Debug\Load3DS.obj"
+".\Debug\New3DSLoader.obj"
+".\Debug\StdAfx.obj"
+".\Debug\New3DSLoader.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP104.tmp"
+<h3>Output Window</h3>
+Compiling...
+3DSModel.cpp
+Generating Code...
+Compiling...
+Load3DS.cpp
+New3DSLoader.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+New3DSLoader.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
